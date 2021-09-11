@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Real Estate</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+   
+</head>
+
+<body>
+    <div class="main">
+
+        
+
+        <div class="back">
+            <div class="banner1">
+                <img src="{{url_for('static',filename='images/bg1.jpg')}}">
+            </div>
+            <div class="banner2">
+                <img src="{{url_for('static',filename='images/bg2.jpg')}}">
+            </div>
+            <div class="banner3">
+                <img src="{{url_for('static',filename='images/bg3.jpg')}}">
+            </div>
+            <div class="banner4">
+                <img src="{{url_for('static',filename='images/bg4.jpg')}}">
+            </div>
+            <div class="banner5">
+                <img src="{{url_for('static',filename='images/bg5.jpg')}}">
+            </div>
+           
+        </div>
+        
+
+        <!-- <div class="navbar">
+            <img src="images/logo.png" class="logo">
+            <div class="user">
+                <button type="button">Explore</button>
+                <img src="images/user.png" class="logo">
+            </div>
+          
+        </div> -->
+
+        <div class="container">
+            <div class="info">
+                <h1>DRAGON REAL ESTATE</h1>
+                <p>Get accurate price of any property & choose the right one for you.</p>
+                    <!-- <button type="button">Explore</button> -->
+                    <a href="#secondpage" class="abutton">Explore</a>
+            </div>
+
+
+        </div>
+        
+        <div class="home">
+            <a href="/">Home</a>
+        </div>
+
+
+    </div>
+    <div class="second" id="secondpage">
+        <!-- <h1>abcd</h1> -->
+        <div class="container1">
+            <form action="#" method="POST">
+                <h3>Predict Price</h3>
+                <input type="number float" placeholder="per capita crime rate by town" name="crime" required>
+                <input type="number float" placeholder="residential land" name="resident land proportion" required>
+                <input type="number float" placeholder="proportion of non-retail business per town" name="industrilization" required>
+                <input type="number" min="0" max="1"  placeholder="River" name="River" required>
+                <input type="number float" placeholder="nitric oxides concentration" name="pollution" required> 
+                <input type="number float" placeholder="average number of rooms" name="rooms" required>
+                <input type="number float" placeholder="AGE" name="Age" required>
+                <input type="number float" placeholder="weighted distances to employment centres" name="distance to employment centres" required>
+                <input type="number" placeholder="accessibility to radial highways" name="no. of highways" required>
+                <input type="number float" placeholder="property-tax rate" name="tax" required>
+                <input type="number float" placeholder="pupil-teacher ratio by town" name="teacherstudent" required>
+                <input type="number float" placeholder="lower status of the population" name="lower status people" required>
+               
+                
+                <div class="btn-box">
+                    <button style="margin: auto;" type="submit" onclick="result">SUBMIT</button>
+                </div>
+            </form>
+    
+        </div>
+    
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- <div class="third">
+        <br>
+        <br>
+        <br>
+        <div class="bottombar">
+            <img src="images/logo.png">
+            <img src="images/logo.png">
+            <img src="images/logo.png">
+        </div>
+    </div> -->
+    <footer>
+        <div class="footer-content">
+            <h1>SOCIALS</h1>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/ahmed.hamza.3950178/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/ahmedhamzasaifi/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ahmed-hamza-879010206/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+<script>
+
+</script>
+
+    <!-- <script>
+        var Form1=document.getElementById("form1");
+        var Form2=document.getElementById("form2");
+        var Form3=document.getElementById("form3");
+    
+        var Next1=document.getElementById("Next1");
+        var Next2=document.getElementById("Next2");
+        var Back1=document.getElementById("Back1");
+        var Back2=document.getElementById("Back2");
+    
+        var Progress=document.getElementById("progress");
+    
+        Next1.onclick=function(){
+            Form1.style.left="-450px";
+            Form2.style.left="40px";
+            Progress.style.width="240px";
+    
+        }
+    
+        // Back1.onclick=function(){
+        //     Form1.style.left="40px";
+        //     Form2.style.left="450px";
+        //     Progress.style.width="120px";
+    
+        // }
+    
+        Next2.onclick=function(){
+            Form2.style.left="-450px";
+            Form3.style.left="40px";
+            Progress.style.width="360px";
+    
+        }
+    
+        // Back2.onclick=function(){
+        //     Form2.style.left="40px";
+        //     Form3.style.left="450px";
+        //     Progress.style.width="240px";
+    
+        // }
+    
+    </script> -->
+    
+</body>
+</html>
